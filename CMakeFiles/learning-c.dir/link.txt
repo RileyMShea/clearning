@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/learning-c.dir/main.c.o  -o learning-c 

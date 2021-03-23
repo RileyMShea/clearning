@@ -1,30 +1,25 @@
 #include <stdio.h>
 #include <string.h>
 
-struct Pet{
+struct Pet {
   char name[50];
 };
 
-struct Person{
+struct Person {
   char name[50];
   struct Pet pet;
 };
 
-int person_type(struct Person person){
+int person_type(struct Person person) { return 0; }
 
-
-  return 0;
-}
-
-
-int main(){
+int main() {
   char a[50] = "Riley";
-  int size =  sizeof a / sizeof *a;
-  for (int i = 0;i < size ;i++){
+  int size = sizeof a / sizeof *a;
+  for (int i = 0; i < size; i++) {
   }
   struct Person riley;
   strcpy(riley.name, a);
-  printf("%s %s",a,a);
+  printf("%s %s", a, a);
 
   return 0;
 }

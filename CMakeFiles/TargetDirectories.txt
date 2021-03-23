@@ -1,0 +1,3 @@
+/home/riley/code/c/learning-c/CMakeFiles/rebuild_cache.dir
+/home/riley/code/c/learning-c/CMakeFiles/edit_cache.dir
+/home/riley/code/c/learning-c/CMakeFiles/learning-c.dir
